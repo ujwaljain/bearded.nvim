@@ -1,6 +1,6 @@
 local M = {}
-local cfg = vim.g.onedark_config
-local c = require 'onedark.colors'
+local cfg = vim.g.bearded_config
+local c = require 'bearded.colors'
 
 function M.setup()
     if not cfg.term_colors then return end
