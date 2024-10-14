@@ -22,9 +22,8 @@ function M.colorscheme()
     if vim.o.background == 'light' then
         M.set_options('style', 'coffeecream')
     elseif vim.g.bearded_config.style == 'coffee-cream' then
-        M.set_options('style', 'coffeecream')
+        M.set_options('style', 'coffee')
     end
-    M.set_options('style', 'coffeecream')
     require('bearded.highlights').setup()
     require('bearded.terminal').setup()
 end
