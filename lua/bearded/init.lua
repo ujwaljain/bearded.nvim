@@ -1,6 +1,6 @@
 local M = {}
 
-M.styles_list = { 'coffeecream' }
+M.styles_list = { 'coffeecream', 'coffee' }
 
 ---Change bearded option (vim.g.bearded_config.option)
 ---It can't be changed directly by modifying that field due to a Neovim lua
@@ -21,7 +21,7 @@ function M.colorscheme()
     vim.g.colors_name = "bearded"
     if vim.o.background == 'light' then
         M.set_options('style', 'coffeecream')
-    elseif vim.g.bearded_config.style == 'coffee-cream' then
+    elseif vim.o.background == 'dark' then
         M.set_options('style', 'coffee')
     end
     require('bearded.highlights').setup()

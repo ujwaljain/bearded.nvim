@@ -1,9 +1,9 @@
 return {
   coffeecream = {
     bg0 = "#eae4e1",   -- background
-    bg1 = "#e9ddd9",   -- second bg for cursorcolumn, colorcolumn etc.
+    bg1 = "#eee9e7",   -- second bg for cursorcolumn, colorcolumn etc.
     bg2 = "#e3dcd8",   -- status line
-    bg3 = "#e3dcd8",   -- PMenu etc.
+    bg3 = "#cfc0ba",   -- PMenu etc.
     bg_d = "#e3dcd8",  -- bg for sidebar nvimtree etc.
     bg_yellow = "#e2c792",
     fg = "#36221d",
@@ -15,8 +15,8 @@ return {
     yellow = "#ad8201",
     cyan = "#038ea4",
     red = "#dd2e2e",
-    grey = "#cfc0ba",
-    light_grey = "#ae9e99", -- comments etc.
+    grey = "#ae9e99", -- comments etc
+    light_grey = "cfc0ba",
     dark_cyan = "#009b75",
     dark_red = "#833b3b",
     dark_yellow = "#7c5c20",
@@ -30,7 +30,7 @@ return {
     bg0 = "#292423",   -- background
     bg1 = "#352b27",   -- second bg for cursorcolumn, colorcolumn etc.
     bg2 = "#221e1d",   -- status line
-    bg3 = "#221e1d",   -- PMenu etc.
+    bg3 = "#65453c",   -- PMenu etc.
     bg_d = "#1d1b1a",  -- bg for sidebar nvimtree etc.
     bg_yellow = "#e2c792",
     fg = "#9f8e8b",
@@ -52,6 +52,5 @@ return {
     diff_delete = "#fce2e5",
     diff_change = "#e2ecfb",
     diff_text = "#cad3e0",
-
-  }
+  },
 }
